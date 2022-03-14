@@ -1,0 +1,892 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Muller';
+    src: url(../fonts/MullerRegular.ttf);
+}
+.center {
+    padding: 0 calc(50% - 570px);
+
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.widthblock {
+    width: 83px;
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.magickdiv {
+    width: 100%;
+    background: #404040;
+    display: flex;
+}
+.m-body {
+    display: flex;
+}
+.m-log {
+    width: 80px;
+    height: 100vh;
+    border-right: 1px solid #737373;
+}
+.updiv {
+    width: 100%;
+    display: flex;
+    justify-content: right ;
+}
+.poloski {
+    width: 44px;
+    height: 30px;
+    margin-top: 38px;
+    text-align: right;
+    margin-right: 40px;
+    background: url(../img/poloski.png) center no-repeat;
+}
+.content-modal {
+    display: flex;
+    margin-top: 130px;
+}
+.m-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 107px;
+    width: 300px;
+
+}
+.modal-link {
+    text-decoration: none;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+.modal-link:hover {
+    margin-left: 20px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #E3F7FD;
+}
+.m-right {
+    margin-left: 350px;
+}
+.m-h {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.mcontact {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #E3F7FD;
+    text-decoration: none;
+}
+.mail-m {
+    text-decoration: none;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+.cont-m {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #919191;
+    margin-top: 10px;
+}
+.callback {
+    display: flex;
+    flex-direction: column;
+    margin-top: 73px;
+}
+.send {
+    text-align: center;
+    padding-top: 28px;
+    margin-top: 17px;
+    width: 420px;
+    height: 93px;
+    background: url(../img/button.png) center no-repeat;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+.send:hover {
+    cursor: pointer
+}
+.inpt {
+    width: 420px;
+    height: 78px;
+    background-color: #58686D;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+}
+
+.inpt::placeholder {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.clb-p {
+    width: 419px;
+    height: 60px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.rightbigblock {
+    width: 1359px;
+
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.logo__img {
+    background: url(../img/logo1.png) center no-repeat;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    top: 49px;
+}
+.logo-zindex {
+    z-index: 9999;
+    left: 8px;
+}
+
+header {
+    display: flex;
+
+    height: 820px;;
+
+    background: url(../img/kofebar/header.png) center no-repeat;
+}
+.head-text {
+    padding-left: 108px;
+}
+.navigation {
+    margin-top: 63px;
+
+}
+.navbar_link {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F5F6F8;
+
+}
+
+.head-h {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.headh3 {
+    margin-top: 232px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+}
+.headh2 {
+    margin-top: 9px;
+    font-family: Muller;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+.header-buttons {
+    margin-top: 125px;
+    width: 420px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btnhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 35px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.btnlink {
+    text-decoration: none;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 50px;
+    color: #F5F6F8;
+}
+
+.about {
+    padding: 100px 100px 0px 108px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_h {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #81AEE5;
+}
+.about_tex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 1150px;
+    opacity: 0;
+}
+.element-show {
+    opacity: 1;
+    transition: opacity 1s;
+}
+.about_p {
+    width: 500px;
+    height: 175px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #404040;
+}
+    .logos {
+        margin-top: 50px;
+    }
+    .losimos {
+
+        width: 1152px;
+        height: 472px;
+    }
+    .logo1 {
+        background: url(../img/kofebar/logo.png) center no-repeat;
+        background-size: cover;
+    }
+    .palitra {
+        background: url(../img/kofebar/palitra.png) center no-repeat;
+        background-size: cover;
+    }
+    .stoiki {
+        margin-top: 50px;
+        width: 1150px;
+        height: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+        .stok {
+            width: 365px;
+            height: 700px;
+        }
+            .sl {
+                background: url(../img/kofebar/sl.png) center no-repeat;
+                background-size: cover;
+            }
+            .sc {
+                background: url(../img/kofebar/sc.png) center no-repeat;
+                background-size: cover;
+            }
+            .sr {
+                background: url(../img/kofebar/sr.png) center no-repeat;
+                background-size: cover;
+            }
+
+.heroes {
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    height: 440px;
+    justify-content: space-between;
+}
+.heroesleft {
+    width: 560px;
+    height: 420px;
+}
+.cup {
+    background: url(../img/kofebar/cup.png) center no-repeat;
+}
+.six {
+    background: url(../img/kofebar/six.png) center no-repeat;
+}
+.scidka {
+    background: url(../img/kofebar/scidka.png) center no-repeat;
+}
+.menu {
+    background: url(../img/kofebar/menu.png) center no-repeat;
+}
+
+.medals {
+    width: 1150px;
+    height: 600px;
+    background: url(../img/medals.png) center no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+}
+.video {
+    width: 1150px;
+    height: 650px;
+    margin-top: 50px;
+    border: 1px solid gray;
+}
+
+.carta {
+    width: 1150px;
+    height: 470px;
+    background: url(../img/second/carta.png) center no-repeat;
+}
+.components {
+    width: 1150px;
+    height: 555px;
+    background: url(../img/second/components.png) center no-repeat;
+    background-size: cover;
+}
+.tipografy {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1150px;
+}
+.tipografyd {
+    display: flex;
+    flex-direction: column;
+    height: 363px;
+    justify-content: space-between;
+}
+.tipografy-h3 {
+    font-family: Muller;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    color: #404040;
+}
+.tipografy-leftdiv {
+    width: 411.73px;
+    height: 295.4px;
+    background: url(../img/text.png) center no-repeat;
+}
+.tipografy-rightdiv{
+    width: 540.07px;
+    height: 253.83px;
+    background: url(../img/colors.png) center no-repeat;
+}
+.ornaments {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.ornimg {
+    margin-top: 20px;
+    width: 1150px;
+    height: 600px;
+    background: linear-gradient(74.36deg, #404040 15.22%, #9F9F9F 82.21%);
+}
+.kniga {
+    width: 1150px;
+    height: 600px;
+    background: url(../img/kniga.png) center no-repeat;
+}
+.patterns {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 1151.24px;
+    height: 381.78px;
+}
+.pimg {
+    width: 288px;
+    height: 322px;
+}
+.orel {
+    background: url(../img/carusel1.png) center no-repeat;
+}
+.horse {
+    background: url(../img/horse.png) center no-repeat;
+}
+.tumba {
+    background: url(../img/tumba.png) center no-repeat;
+}
+.nout {
+    margin-top: 30px;
+    width: 1149px;
+    height: 795px;
+    background: url(../img/history.png) center no-repeat;
+}
+
+.mobile {
+    width: 1150px;
+    height: 650px;
+    background: url(../img/mobile.png) center no-repeat;
+}
+
+.humans {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+.humandiv {
+    display: flex;
+    flex-direction: column;
+}
+    .store {
+        width: 164px;
+        height: 47px;
+    }
+    .iphone {
+        background: url(../img/second/appStore.png) center no-repeat;
+    }
+    .gogle {
+        background: url(../img/second/play.png) center no-repeat;
+    }
+.humanh {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #00A65A;
+}
+.humanp {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #404040;
+    width: 212px;
+    height: 105px;
+}
+.laptop {
+    width: 1150px;
+    height: 590px;
+    background: url(../img/second/mobile.png) center no-repeat;
+}
+
+.presentacia {
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+}
+.present {
+    width: 551px;
+    height: 350px;
+}
+.presenth {
+    margin-top: 105px;
+    margin-bottom: 15px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    width: 370px;
+    text-align: center
+
+}
+.presenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 53px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #1199FF;
+}
+.l {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(0deg, #00A3FF, #00A3FF);
+
+}
+.r {
+    background: url(../img/sport.png) center no-repeat;
+}
+.fotki {
+    display: flex;
+    width: 1150px;
+    flex-direction: column;
+}
+.fotki-line {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin-bottom: 20px;
+}
+.linebig {
+    width: 658px;
+    height: 404px;
+
+}
+.linelittle {
+    width: 467px;
+    height: 404px;
+
+}
+.sportsmens {
+    background: url(../img/sportsmens.png) center no-repeat;
+}
+.tetka {
+    background: url(../img/tetka.png) center no-repeat;
+}
+.sumo {
+    background: url(../img/sumo.png) center no-repeat;
+}
+.hats {
+    background: url(../img/hats.png) center no-repeat;
+}
+.interview {
+    background: url(../img/interview.png) center no-repeat;
+}
+.yellow {
+    background: url(../img/yellow.png) center no-repeat;
+}
+.sayt {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #81AEE5;
+    text-decoration: none;
+}
+
+.comanda {
+    width: 1359px;
+    height: 320px;
+    margin-top: 100px;
+    margin-left: -108px;
+    margin-right: -100px;
+    padding-left: 102px;
+
+    background: #F3F3F3;
+}
+.comanda-line {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin-bottom: 50px;
+}
+.comandspersons {
+    display: flex;
+    flex-direction: column;
+    width: 202px;
+    height: 46px;
+    justify-content: space-between;
+}
+.comandsh {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #404040;
+}
+.comandsp{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #404040;
+
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1150px;
+    justify-content: space-between;
+}
+.ceyses {
+    width: 552px;
+    height: 337px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hover-text {
+    display: none;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+}
+.ceyses:hover{
+    background: linear-gradient(0deg, #00A3FF, #00A3FF);
+}
+.ceyses:hover p{
+    display: block;
+}
+.sticks{
+    background: url(../img/sticks.png) center no-repeat;
+}
+
+.barsik{
+    background: url(../img/barsik.png) center no-repeat;
+}
+.city17{
+    background: url(../img/city17.png) center no-repeat;
+}
+.boost{
+    background: url(../img/boost.png) center no-repeat;
+}
+
+.btnceyses {
+    display: flex;
+    width: 1150px;
+    justify-content: center;
+    align-items: center;
+}
+.allceyses {
+    width: 342.55px;
+    height: 80px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 39px;
+    background: #FFFFFF;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+footer {
+    width: 1359px;
+    height: 619px;
+    margin-top: 100px;
+    margin-left: -108px;
+    margin-right: -100px;
+    padding-left: 107px;
+    padding-right: 105px;
+    background: #F3F3F3;
+}
+
+.fot-nav {
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.nav-link {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #4E4E4E;
+}
+.nav-link:hover {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #4CCBF3;
+}
+.fot-center{
+    display: flex;
+    margin-top: 80px;
+    width: 1150px;
+    justify-content: space-between;
+}
+.logo-footer {
+    background: url(../img/logo2.png) center no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.fot-social {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 284px;
+}
+.fh {
+    margin-bottom: 27px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #737373;
+}
+.soc {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+.soclink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(90.96deg, #4CCBF3 8.23%, #90D7EE 46.61%);
+}
+.fp {
+    margin-top: 19px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #737373;
+}
+.fcontact {
+    text-decoration: none;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #4CCBF3;
+
+}
+.cont-p {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #737373;
+    margin-top: 10px;
+}
+.mail-p {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #737373;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.messenger {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #737373;
+}
+.fot-bottom {
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+}
+.prava {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+}
+.b-text {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+}
+.creative {
+    width: 1365px;
+    height: 94px;
+    margin-left: -108px;
+    margin-right: -100px;
+    background: linear-gradient(90.96deg, #D8F664 8.23%, #D0E778 48.5%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.creativ-text {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #4CCBF3;
+}
