@@ -890,3 +890,154 @@ footer {
     text-transform: uppercase;
     color: #4CCBF3;
 }
+.special {
+    margin-top: 100px;
+}
+.onlymobile {
+    width: 1150px;
+    height: 70px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    .rightbigblock {
+        width: 425px;
+    }
+    .widthblock {
+        display: none;
+    }
+    header {
+        height: 934px;
+        background: url(../img/kofebar/headermobile.png) center no-repeat;
+    }
+        .navigation {
+            display: none;
+        }
+        .headh2 {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 50px;
+        }
+        .headh3 {
+            margin-top: 190px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .head-text {
+
+        }
+        .magik-d {
+            width: 425px;
+            padding: 40px 32px 0px 42px;
+        }
+        .updiv {
+            justify-content: space-between;
+        }
+            .m-logo {
+                width: 116px;
+                height: 115px;
+                background: url(../img/kofebar/m-logo.png) center no-repeat;
+            }
+
+            .poloski {
+                width: 35px;
+                height: 23px;
+                margin-top: 9px;
+                text-align: right;
+                margin-right: 0px;
+                background: url(../img/kofebar/m-poloski.png) center no-repeat;
+            }
+        .content-modal {
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 104px;
+        }
+            .m-left {
+                margin-left: 0px;
+                height: 310px;
+                justify-content: space-between;
+            }
+                .modal-link {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 24px;
+                    margin-bottom: 0px;
+                }
+            .m-right {
+                margin-left: 0px;
+                margin-top: 97px;
+            }
+                .m-h {
+                    display: none;
+                }
+                .mcontact {
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 36px;
+                    margin-left: 10px;
+                }
+                .cont-m {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin-left: 10px;
+                    margin-top: 0px;
+                }
+                .mail-m {
+                    display: none;
+                }
+                .clb-p {
+                    display: none;
+                }
+                .inpt {
+                    display: none;
+                }
+                .c-block {
+                    display: none;
+                }
+                .callback {
+                    margin-top: 18px;
+                }
+                .send {
+                    width: 364px;
+                    height: 93px;
+                    background: url(../img/kofebar/zayavka.png) center no-repeat;
+                    padding-top: 28px;
+                    margin-top: 0px;
+                }
+
+    .head-text{
+        padding-left: 25px;
+    }
+    .about {
+        padding: 70px 25px 0px 25px;
+    }
+        .about_tex {
+            margin-top: 15px;
+        }
+            .about_h {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 30px;
+            }
+            .special {
+                margin-top: 55px;
+            }
+            .about_p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                width: 378px;
+                height: 180px;
+                margin-bottom: 15px;
+            }
+        .losimos {
+            width: 427px;
+            height: 442px;
+            margin-left: -25px;
+            margin-right: -25px;
+            background: url(../img/kofebar/zayavka.png) center no-repeat;
+        }
+}
