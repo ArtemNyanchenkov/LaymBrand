@@ -322,6 +322,7 @@ header {
     .palitra {
         background: url(../img/kofebar/palitra.png) center no-repeat;
         background-size: cover;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
     .imos {
         display: none;
@@ -907,6 +908,9 @@ footer {
 .pers {
     width: 237px; height: 46px;
 }
+.imos1.imos2.imos3.imos4.imos5 {
+    display: none;
+}
 @media screen and (min-width: 320px) and (max-width: 426px) {
     .doble {
         display: block;
@@ -1059,27 +1063,42 @@ footer {
             display: none;
         }
         .imos1 {
-
+            width: 425px;
+            height: 352px;
+            margin-left: -25px;
+            margin-right: -25px;
             background: url(../img/kofebar/imos1.png) center no-repeat;
         }
 
         .imos2 {
-
+            width: 425px;
+            height: 352px;
+            margin-left: -25px;
+            margin-right: -25px;
             background: url(../img/kofebar/imos2.png) center no-repeat;
         }
 
         .imos3 {
-
+            width: 425px;
+            height: 292px;
+            margin-left: -25px;
+            margin-right: -25px;
            background: url(../img/kofebar/imos3.png) center no-repeat;
         }
 
         .imos4 {
-
+            width: 425px;
+            height: 228px;
+            margin-left: -25px;
+            margin-right: -25px;
             background: url(../img/kofebar/imos4.png) center no-repeat;
         }
 
         .imos5 {
-
+            width: 425px;
+            height: 228px;
+            margin-left: -25px;
+            margin-right: -25px;
             background: url(../img/kofebar/imos5.png) center no-repeat;
         }
 
