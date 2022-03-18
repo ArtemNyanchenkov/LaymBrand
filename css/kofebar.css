@@ -323,6 +323,9 @@ header {
         background: url(../img/kofebar/palitra.png) center no-repeat;
         background-size: cover;
     }
+    .imos {
+        display: none;
+    }
     .stoiki {
         margin-top: 50px;
         width: 1150px;
@@ -897,8 +900,20 @@ footer {
     width: 1150px;
     height: 70px;
 }
+.doble {
+    display: none;
+}
 
+.pers {
+    width: 237px; height: 46px;
+}
 @media screen and (min-width: 320px) and (max-width: 426px) {
+    .doble {
+        display: block;
+        background: url(../img/kofebar/Vector.png) center no-repeat;
+        top: 72px;
+        right: 10px;
+    }
     .rightbigblock {
         width: 425px;
     }
@@ -1034,10 +1049,212 @@ footer {
                 margin-bottom: 15px;
             }
         .losimos {
-            width: 427px;
+            width: 425px;
             height: 442px;
             margin-left: -25px;
             margin-right: -25px;
-            background: url(../img/kofebar/zayavka.png) center no-repeat;
+
         }
+        .palitra {
+            display: none;
+        }
+        .imos1 {
+
+            background: url(../img/kofebar/imos1.png) center no-repeat;
+        }
+
+        .imos2 {
+
+            background: url(../img/kofebar/imos2.png) center no-repeat;
+        }
+
+        .imos3 {
+
+           background: url(../img/kofebar/imos3.png) center no-repeat;
+        }
+
+        .imos4 {
+
+            background: url(../img/kofebar/imos4.png) center no-repeat;
+        }
+
+        .imos5 {
+
+            background: url(../img/kofebar/imos5.png) center no-repeat;
+        }
+
+
+        .logo1 {
+            background: url(../img/kofebar/logom.png) center no-repeat;
+        }
+        footer {
+            width: 425px;
+            display: flex;
+            flex-wrap: wrap;
+            height: 1051px;
+            margin-left: -25px;
+            margin-right: -25px;
+            padding: 0px 35px 0px 25px;
+        }
+    .fot-nav {
+        display: flex;
+        flex-direction: column;
+        width: 112px;
+        justify-content: space-between;
+        margin-top: 65px;
+    }
+    .nav-link {
+        font-family: Muller;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #4E4E4E;
+    }
+    .nav-link:hover {
+        font-family: Muller;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #4CCBF3;
+    }
+    .fot-logo {
+        display: none;
+    }
+    .fot-center{
+        display: flex;
+        flex-direction: column;
+        margin-top: 38px;
+        width: 325px;
+        justify-content: space-between;
+    }
+    .fh {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cont-p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+    }
+    .mail-p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .messenger {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .soc {
+        justify-content: space-between;
+    }
+    .fp {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .fcontact {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .fot-bottom {
+        flex-direction: column;
+        width: 370px;
+        margin-top: 21px;
+    }
+    .mbottom {
+        margin-top: 20px;
+    }
+    .creative {
+        width: 425px;
+        height: 100px;
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    .creativ-text {
+        font-family: Muller;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+
+        text-align: center;
+        letter-spacing: 0.5em;
+        text-transform: uppercase;
+        color: #4CCBF3;
+    }
+    .mobilelogo {
+        margin-top: 62px;
+        margin-left: 102px;
+        width: 148px;
+        height: 148px;
+        background: url(../img/kofebar/laym.png) center no-repeat;
+    }
+    .stoiki {
+        margin-top: 0px;
+        width: 380px;
+        height: 2165px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+    .stok {
+        width: 378px;
+        height: 715px;
+    }
+    .heroes {
+        display: none;
+    }
+    .poly-m {
+        display: none;
+    }
+    .comanda {
+        width: 427px;
+        height: 442px;
+        margin-left: -25px;
+        margin-right: -25px;
+        padding-left: 25px;
+    }
+    .comanda-line {
+        width: 301px;
+        height: 235px;
+        flex-wrap: wrap;
+    }
+    .comandsh {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .comandsp {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .comandspersons {
+        width: 136px;
+        height: 105px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ceyses {
+        width: 378px;
+        height: 243px;
+    }
+    .barsik {
+        background-size: cover;
+    }
 }
